@@ -1,0 +1,18 @@
+/* for the index.html */
+img {
+    object-fit: cover;
+    height: 100px;
+    width: 150px;
+    transition: all 0.3s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s
+}
+
+.shrimp:hover,.easter:hover,.hamburger:hover {
+    a {font-size: x-large;}
+    img {width: 300px; height: 200px;}
+}
